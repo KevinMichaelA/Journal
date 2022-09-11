@@ -1,0 +1,86 @@
+#title{
+    background-color:#fff;
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Manrope', sans-serif;
+  font-size:2.5rem;
+}
+
+img{
+  margin-top:2%;
+  transform:rotate(30deg);
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  img{
+    transform:rotate(0deg);
+  }
+}
+
+.container-fluid{
+  padding:4% 15%
+}
+
+.navbar{
+  padding-bottom: 4rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+}
+
+.title-img{
+  width:60%;
+}
+
+.button-sign{
+    margin:5% 3% 5% 0;
+}
+
+.navbar-brand{
+  font-weight:bold;
+  font-size: 2.5rem;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+#feature{
+  background-color: #000;
+  color:#fff;
+  padding:4% 16%;
+}
+
+.icon{
+  color:#fff;
+}
+
+.feature-box{
+  text-align: center;
+  padding:4.5%;
+}
+
+footer{
+  font-family: 'Manrope', sans-serif;
+  padding:5% 15%;
+  text-align: center;
+}
+
+.footer-icon{
+  padding:1.5%;
+}

@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="">Journal</a>
+  </nav>
+<div class="row" style="padding-top: 2%;">
+  <div class="col-lg-6">
+    <h1>Compose</h1>
+    <form class="" action="/compose" method="post" id="message">
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="postTitle">
+        <label>Post</label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30" maxlength="280" id="message"></textarea>
+      </div>
+      <button class="btn btn-dark" type="submit" name="button">Publish</button>
+    </form>
+  </div>
+</div>
+</div>
+<%- include("partials/footer"); -%>
